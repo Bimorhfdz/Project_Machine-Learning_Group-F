@@ -1,6 +1,3 @@
-# Project_Machine-Learning_Group-F
-
-```markdown
 # 📊 Analisis Klasifikasi Subscription Deposito Bank Menggunakan Machine Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -14,7 +11,6 @@ Repository ini berisi proyek *machine learning* yang bertujuan untuk memprediksi
 
 ## 👥 Tim Peneliti (Kelompok F)
 Proyek ini disusun oleh mahasiswa Program Studi Statistika, Fakultas Matematika dan Ilmu Pengetahuan Alam, **Universitas Jenderal Soedirman (2026)**:
-
 * 🧑‍💻 **Emanuel Christmas P.F** — (K1D024065)
 * 👩‍💻 **Bertha Misella Silalahi** — (K1D024068)
 * 🧑‍💻 **Bimo Rahman H** — (K1D024069)
@@ -30,13 +26,7 @@ Tantangan utama dalam dataset ini adalah adanya ketidakseimbangan kelas (*class 
 ---
 
 ## 🛠️ Alur Kerja & Metodologi
-
-
-```
-
-[Raw Dataset] ➡️ [Data Cleaning] ➡️ [Winsorizing (Outliers)] ➡️ [One-Hot Encoding] ➡️ [SMOTE Balancing] ➡️ [Random Forest + Tuning]
-
-```
+`[Raw Dataset] ➡️ [Data Cleaning] ➡️ [Winsorizing (Outliers)] ➡️ [One-Hot Encoding] ➡️ [SMOTE Balancing] ➡️ [Random Forest + Tuning]`
 
 ### 1. Pembersihan Data (Data Cleaning)
 * **Missing Values:** Hasil pemeriksaan menunjukkan tidak terdapat data kosong (*null/missing values*).
@@ -73,36 +63,25 @@ Model akhir **Random Forest Classifier (Tuned)** memberikan performa klasifikasi
 ---
 
 ## 💻 Prasyarat Sistem (Requirements)
-Jalankan perintah berikut pada terminal atau prompt perintah Anda untuk mengonfigurasi *environment* dependensi library:
+Jalankan perintah berikut pada terminal atau command prompt Anda untuk mengonfigurasi *environment* dependensi library:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn kagglehub
-
 ```
 
 ---
 
 ## 🚀 Cara Menjalankan Proyek
+1. Unduh / Clone Repository ini ke komputer lokal Anda.
+2. Buka file notebook proyek menggunakan platform pilihan Anda (Jupyter Notebook, Jupyter Lab, atau Google Colab).
+3. Jalankan cell kode secara berurutan pada berkas:
+   * `Project_ML_F_(Revisi).ipynb`
 
-1. **Unduh / Clone Repository ini** ke komputer lokal Anda.
-2. Buka file notebook proyek menggunakan platform pilihan Anda (Jupyter Notebook, Jupyter Lab, atau Google Colab):
-```bash
-Project_ML_F_(Revisi).ipynb
-
-```
-
-
-3. Jalankan *cell* kode secara berurutan.
-4. **Catatan:** Dataset tidak perlu diunduh manual. Kode sudah terintegrasi dengan pustaka `kagglehub` untuk mengambil file asli `bank-additional-full.csv` secara otomatis langsung dari server Kaggle.
+> ⚠️ **Catatan:** Dataset tidak perlu diunduh manual. Kode sudah terintegrasi dengan pustaka `kagglehub` untuk mengambil file asli `bank-additional-full.csv` secara otomatis langsung dari server Kaggle.
 
 ---
 
 ## 📁 Struktur File Pendukung
-
-* 📓 `Project_ML_F_(Revisi).ipynb` : Berkas notebook utama berisi implementasi kode dari hulu ke hilir.
-* 📝 `Laporan_Project_ML_FIX_ABIS_1.docx` : Dokumen laporan analitis resmi lengkap (Format Word) dari Bab I s.d Bab IV.
-* 📘 `Project_ML_F_(Revisi).pdf` : Salinan cetak visualisasi dari notebook eksperimen pemodelan.
-
-```
-
-```
+* 📓 **Project_ML_F_(Revisi).ipynb** : Berkas notebook utama berisi implementasi kode dari hulu ke hilir.
+* 📝 **Laporan_Project_ML_FIX_ABIS_1.docx** : Dokumen laporan analitis resmi lengkap (Format Word) dari Bab I s.d Bab IV.
+* 📘 **Project_ML_F_(Revisi).pdf** : Salinan cetak visualisasi dari notebook eksperimen pemodelan.
